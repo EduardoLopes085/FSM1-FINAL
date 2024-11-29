@@ -65,11 +65,11 @@
             <section class="sectionVideos" id="videos">
                 <article class="videoContainer">
                     <iframe src="https://www.youtube.com/embed/exemplo" frameborder="0" allowfullscreen></iframe>
-                    <p>Descrição do vídeo 2. Transcrição do vídeo.</p>
+                    <p>React - Introdução</p>
                 </article>
                 <article class="videoContainer">
                     <iframe src="https://www.youtube.com/embed/exemplo" frameborder="0" allowfullscreen></iframe>
-                    <p>Descrição do vídeo 2. Transcrição do vídeo.</p>
+                    <p>Node.JS - Introdução</p>
                 </article>
             </section>
             
@@ -80,20 +80,20 @@
                     <div>
                         <img src="_4df8ca81-baae-48b4-ac01-bba93d2473fa.jpg" alt="Foto do especialista 1">
                     </div>
-                    <h3>Nome do Especialista 1</h3>
-                    <p>Área de especialização: Especialização 1</p>
-                    <p>Breve descrição sobre o especialista 1.</p>
-                    <a href="https://www.linkedin.com/in/exemplo1">LinkedIn</a>
+                    <h3>João Dev</h3>
+                    <p>Área de especialização: Especialista em React</p>
+                    <p>Mais de 10 anos de experiência com React.</p>
+                    <a href="https://www.google.com" target="_blank">LinkedIn</a>
                 </article>
 
                 <article class="cardSpecialist">
                     <div>
                         <img src="_b600a42e-3965-4f3e-b925-228aef5ffbcd.jpg" alt="Foto do especialista 1">
                     </div>
-                    <h3>Nome do Especialista 1</h3>
-                    <p>Área de especialização: Especialização 1</p>
-                    <p>Breve descrição sobre o especialista 1.</p>
-                    <a href="https://www.linkedin.com/in/exemplo1">LinkedIn</a>
+                    <h3>Marcos Dev</h3>
+                    <p>Especialista em Node.JS</p>
+                    <p>Desenvolvedor Sênior empresa Y.</p>
+                    <a href="https://www.google.com" target="_blank">LinkedIn</a>
                 </article>
 
             </section>
@@ -103,22 +103,30 @@
     <!-- Formulário de Contato -->
     <section class="sectionForm" id="contato">
         <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
             
-            <label for="assunto">Assunto:</label>
-            <select id="assunto" name="assunto" required>
-                <option value="">Selecione um assunto</option>
-                <option value="duvida">Dúvida</option>
-                <option value="sugestao">Sugestão</option>
-                <option value="reclamacao">Reclamação</option>
-            </select>
+            <div>
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+            </div>
             
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="divFormText" id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            </div>
             
             <button type="submit">Enviar</button>
         </form>
@@ -126,22 +134,19 @@
     
     <!-- Rodapé -->
     <footer class="footer">
-        <nav>
-            
-                <li><a href="#privacidade">Política de Privacidade</a></li>
-                <li><a href="#termos">Termos de Uso</a></li>
-                <li><a href="#ajuda">Ajuda</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="https://www.facebook.com/exemplo">Facebook</a>
-            <a href="https://www.twitter.com/exemplo">Twitter</a>
-            <a href="https://www.instagram.com/exemplo">Instagram</a>
-        </div>
-        <div>
-            <p>Email: contato@exemplo.com</p>
-            <p>Telefone: (11) 1234-5678</p>
-        </div>
+       
+        <a href="#privacidade">Política de Privacidade</a>
+        <a href="#termos">Termos de Uso</a>
+        <a href="#ajuda">Ajuda</a>
+                 
+        <a href="https://www.facebook.com/exemplo">Facebook</a>
+        <a href="https://www.twitter.com/exemplo">Twitter</a>
+        <a href="https://www.instagram.com/exemplo">Instagram</a>
+       
+     
+        <p>Email: contato@exemplo.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+        
     </footer>
 </body>
 </html>

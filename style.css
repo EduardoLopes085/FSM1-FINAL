@@ -105,7 +105,7 @@ body{
 
 .main{
     width: 100%;
-    height: 80%;
+    height: 70%;
 
     display: flex;
     flex-direction: row;
@@ -222,8 +222,13 @@ body{
     height: 30%;
     width: 10%;
     border-radius: 8px;
+    cursor: pointer;
+    
 }
 
+.articleContent button:hover{
+    background-color: rebeccapurple;
+}
 
 .sectionVideos{
     width: 100%;    
@@ -255,21 +260,25 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
-
-    background-color: #d1e8f7;
+    border-radius: 8px;
+    background-color: white;
 }
 
 .cardSpecialist{
-    width: 45%;
-    height: 100%;
+    width: 25%;
+    height: 90%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between ;
+    
 
+    background-color: #EEF7FF;
+
+    border-radius: 5px;
     
 }
 
@@ -277,6 +286,7 @@ body{
 .cardSpecialist div{
     height: 50%;
     width: 40%;
+    border-radius: 50%;
 
     
 }
@@ -284,15 +294,115 @@ body{
 .cardSpecialist div img{
     height: 100%;
     width: 100%;
+    border-radius: 50%;
 
 }
 
 
+.sectionForm{
+    width: 100%;
+    height: 35%;
 
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F4F4F9;
+    
+}
+
+.sectionForm form{
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    background-color: #D1E8F7;
+
+}
+
+.sectionForm form div{
+    width: 50%;
+    height: 22%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 
 
+    
+}
 
+.sectionForm form div label{
+    width: 100%;
+    height: 20%;
+    font-size: 1.4rem;
+    
+    
+}
+
+.sectionForm form div input{
+    width: 100%;
+    height: 20%;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    
+}
+
+.sectionForm form div select{
+    width: 100%;
+    height: 30%;
+
+    border-radius: 8px;
+}
+
+.divFormText{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 12px;
+    
+    
+}
+
+.sectionForm form button{
+    width: 30%;
+    height: 2.1rem;
+
+    margin-top: 1rem;
+
+    border-radius: 5px;
+
+
+}
+
+.footer{
+    width: 100%;
+    height: 2%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    color: white;
+
+
+    background-color: #007ACC;
+}
+
+.footer a{
+    color: white;
+}
 
 
 
